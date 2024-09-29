@@ -53,37 +53,4 @@ This is a full-stack task management application built using the MERN (MongoDB, 
     npm start
     ```
 
-## Folder Structure
 
-```bash
-.
-├── backend
-│   ├── controllers
-│   │   ├── authController.js        # Handles authentication logic
-│   │   ├── taskController.js        # Handles task CRUD operations
-│   ├── middlewares
-│   │   ├── authMiddleware.js        # JWT token verification middleware
-│   ├── models
-│   │   ├── Task.js                  # Mongoose schema for tasks
-│   │   ├── User.js                  # Mongoose schema for users
-│   ├── routes
-│   │   ├── authRoutes.js            # Authentication-related routes
-│   │   ├── taskRoutes.js            # Task-related routes
-│   ├── server.js                    # Main Express server setup
-│   ├── .env                         # Environment variables
-│   ├── package.json                 # Backend dependencies
-│
-└── frontend
-    ├── public
-    │   ├── index.html               # Main HTML file for the frontend
-    ├── src
-    │   ├── components
-    │   │   ├── TaskForm
-    │   │   │   ├── TaskForm.jsx     # Form for creating/updating tasks
-    │   │   │   ├── TaskForm.css     # Styles for TaskForm component
-    │   │   ├── TaskList
-    │   │   │   ├── TaskList.jsx     # Component to display list of tasks
-    │   │   │   ├── TaskList.css     # Styles for TaskList component
-    │   ├── App.js                   # Main React component
-    │   ├── App.css                  # Global styles
-    ├── package.json                 # Frontend dependencies
